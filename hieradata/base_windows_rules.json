@@ -431,6 +431,23 @@
       "action": 1,
       "edge_traversal_options": 2
     },
+    "!Matt custom Test": {
+      "description": "Testing only",
+      "application_name": "",
+      "protocol": 6,
+      "local_ports": "9999",
+      "remote_ports": "*",
+      "local_addresses": "*",
+      "remote_addresses": "*",
+      "direction": 1,
+      "interface_types": "All",
+      "enabled": true,
+      "grouping": "@FirewallAPI.dll,-28752",
+      "profiles": 7,
+      "edge_traversal": true,
+      "action": 1,
+      "edge_traversal_options": 2
+    },
     "Remote Desktop - User Mode (UDP-In)": {
       "description": "Inbound rule for the Remote Desktop service to allow RDP traffic. [UDP 3389]",
       "application_name": "C:\\Windows\\system32\\svchost.exe",
